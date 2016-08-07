@@ -1,0 +1,19 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/Gemfile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bundle_bin/*'
+    - 'bin/*'
+Rails:
+  Enabled: true
+Style/AsciiComments:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+ClassAndModuleChildren:
+  Enabled: false
