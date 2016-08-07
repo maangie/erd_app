@@ -36,6 +36,7 @@ group :development do
   gem 'rubocop'
   gem 'guard'
   gem 'guard-minitest'
+  gem 'rails-erd'
 end
 
 group :test do
